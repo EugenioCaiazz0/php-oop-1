@@ -28,4 +28,24 @@ class Movie
         echo "$this->length minutes \n";
         echo "$this->critic_score stars \n";
     }
+
+    public function getName(){
+        return $this->name;
+    }
+
+    function getYear(){
+        return $this->year;
+    }
+
+    function getGenre(){
+        return $this->genre;
+    }
+
+    function getLength(){
+        return $this->length;
+    }
+
+    function getCriticScore(){
+        return $this->critic_score;
+    }
 }
