@@ -1,71 +1,20 @@
-Title
+PHP - OOP 1
 ===
-Abstract:xxx
-## Papar Information
-- Title:  `paper name`
-- Authors:  `A`,`B`,`C`
-- Preprint: [https://arxiv.org/abs/xx]()
-- Full-preprint: [paper position]()
-- Video: [video position]()
+Creare un file `index.php` in cui:
+- è definita una **classe ‘Movie’**
+   => all’interno della classe sono dichiarate delle **variabili d’istanza**
+   => all’interno della classe è definito **un costruttore**
+   => all’interno della classe è definito almeno **un metodo**
+- vengono **istanziati almeno due oggetti ‘Movie’** e stampati a schermo i valori delle relative proprietà
+**Bonus 1:**
+Modificare la classe Movie in modo che accetti piú di un genere.
+**Bonus 2:**
+Creare un layout completo per stampare a schermo una lista di movies.
 
-## Install & Dependence
-- python
-- pytorch
-- numpy
-
-## Dataset Preparation
-| Dataset | Download |
-| ---     | ---   |
-| dataset-A | [download]() |
-| dataset-B | [download]() |
-| dataset-C | [download]() |
-
-## Use
-- for train
-  ```
-  python train.py
-  ```
-- for test
-  ```
-  python test.py
-  ```
-## Pretrained model
-| Model | Download |
-| ---     | ---   |
-| Model-1 | [download]() |
-| Model-2 | [download]() |
-| Model-3 | [download]() |
-
-
-## Directory Hierarchy
-```
-|—— index.php
-```
-## Code Details
-### Tested Platform
-- software
-  ```
-  OS: Debian unstable (May 2021), Ubuntu LTS
-  Python: 3.8.5 (anaconda)
-  PyTorch: 1.7.1, 1.8.1
-  ```
-- hardware
-  ```
-  CPU: Intel Xeon 6226R
-  GPU: Nvidia RTX3090 (24GB)
-  ```
-### Hyper parameters
-```
-```
-## References
-- [paper-1]()
-- [paper-2]()
-- [code-1](https://github.com)
-- [code-2](https://github.com)
-  
-## License
-
-## Citing
-If you use xxx,please use the following BibTeX entry.
-```
-```
+**Svolgimento**
+- Creare una classe Movie, per comodità in un file php interno a una cartella contenitore
+- Definire le caratteristiche della classe (variabili)
+- Creare un costruttore che permetta di inizializzare una nuova istanza della classe, passandogli le necessarie variabili d'istanza
+- Includere la classe in questione nel file index tramite "require once"
+- Dichiarare un'istanza
+- Stampare l'istanza tramite funzione basilare precedentemente dichiarata nella classe
